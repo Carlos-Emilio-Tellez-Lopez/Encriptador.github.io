@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="Challenge.css">
+</head>
+<body>
+
+    <div class="container">
+       
+        <textarea id="input-text" placeholder="Escribe tu texto aquí..."></textarea>
+        <div class="buttons">
+            <button onclick="encrypt()">Encriptar</button>
+            <button onclick="decrypt()">Desencriptar</button>
+            <button onclick="copyText()">Copiar</button>
+            <p class="warning-text">No usar mayúsculas o acentos</p>
+        </div>
+        <textarea id="output-text" readonly placeholder="Resultado..."></textarea>
+    </div>
+    <script src="Challenge.js"></script>
+</body>
+</html>
